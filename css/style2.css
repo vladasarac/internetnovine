@@ -1,0 +1,95 @@
+/*DESNI DIV NA VELIKIM EKRANIMA*/
+
+#desno{
+  /*width: 321px;*/
+  position: absolute;
+  top: 132%;
+  right: 20px;
+  width: 25%;
+  float: right;
+  margin-right: 2%;
+  z-index: 112;
+  padding: 10px;
+  background-color: #d3d3d3;
+}
+
+#crveni{
+  background-color: red;
+}
+
+.malidatum{
+  font-size:  80%;
+}
+
+/*tabela sa najvise komentara za mali ekran*/
+#listanajvisekomentarainner, #listaprognozainner, #pretragamaliekraninner{
+  background-color: #d3d3d3;
+  margin-top: -10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+#listanajvisekomentaranaslov, #listaprognozanaslov, #formapretragamenaslov{
+ padding-top: 5px;
+}
+
+#onama{
+  vertical-align: middle;
+  margin-left: 15%;
+}
+
+#redakcija, #redakcija2{
+  float:  left;
+  margin: 0 20px 20px 0;
+}
+#onamap{
+  text-align: justify;
+  text-indent: 2em;
+}
+
+/* @media (max-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }
+}
+ */
+ 
+ /*Proba za navbar collapse samo ako je ekran manji od 1000 px*/
+/* @media (max-width: 1000px) {
+.navbar-header {
+    float: none;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
